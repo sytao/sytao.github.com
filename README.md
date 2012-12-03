@@ -1,10 +1,6 @@
-# Jekyll-Bootstrap
+# sytao
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
-
-## Usage
-
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+这是sytao个人网站的最版本，使用[Jekyll](http://jekyllbootstrap.com/)搭建。
 
 ## Version
 
