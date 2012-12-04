@@ -1,5 +1,6 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+<<<<<<< HEAD
 permalink: /:categories/:title.html
 
 exclude: [".rbenv-version", "README.md", "Rakefile", "CNAME"]
@@ -24,6 +25,25 @@ author :
   github : plusjade
   twitter : plusjade
   feedburner : nil
+=======
+permalink: /:categories/:year/:month/:day/:title 
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+auto: true
+pygments: true
+
+# Themes are encouraged to use these universal variables 
+# so be sure to set them if your theme uses them.
+#
+title : sytao
+tagline: Site Tagline
+author :
+  name : sytao
+  email : i@sytao.net
+  github : sytao
+  twitter : sytao
+  feedburner : 
+>>>>>>> ed847d0782a3aa3004ee53d5380ddd55f5c2de8a
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -33,11 +53,16 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
+<<<<<<< HEAD
 production_url : http://jekyllbootstrap.com
+=======
+production_url : http://sytao.github.com
+>>>>>>> ed847d0782a3aa3004ee53d5380ddd55f5c2de8a
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
+<<<<<<< HEAD
   version : 0.1.0
 
   # All links will be namespaced by BASE_PATH if defined.
@@ -49,6 +74,33 @@ JB :
   # NOTE: When in localhost, your site will run from root "/" regardless of BASE_PATH
   #
   BASE_PATH : ""
+=======
+  version : 0.2.13
+
+  # All links will be namespaced by BASE_PATH if defined.
+  # Links in your website should always be prefixed with {{BASE_PATH}}
+  # however this value will be dynamically changed depending on your deployment situation.
+  #
+  # CNAME (http://yourcustomdomain.com)
+  #   DO NOT SET BASE_PATH 
+  #   (urls will be prefixed with "/" and work relatively)
+  #
+  # GitHub Pages (http://username.github.com)
+  #   DO NOT SET BASE_PATH 
+  #   (urls will be prefixed with "/" and work relatively)
+  #
+  # GitHub Project Pages (http://username.github.com/project-name)
+  #
+  #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
+  #  REQUIRED! Set BASE_PATH to: http://username.github.com/project-name
+  #
+  # CAUTION:
+  #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
+  #   - Only the following values are falsy: ["", null, false]
+  #   - When setting BASE_PATH it must be a valid url.
+  #     This means always setting the protocol (http|https) or prefixing with "/"
+  BASE_PATH : false
+>>>>>>> ed847d0782a3aa3004ee53d5380ddd55f5c2de8a
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -80,18 +132,36 @@ JB :
     intensedebate :
       account : 123abc
     facebook :
+<<<<<<< HEAD
       apikey : 123
 
+=======
+      appid : 123
+      num_posts: 5
+      width: 580
+      colorscheme: light
+   
+>>>>>>> ed847d0782a3aa3004ee53d5380ddd55f5c2de8a
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
+<<<<<<< HEAD
     provider : custom
     google : 
         tracking_id : 'UA-635329-12'
     getclicky :
       site_id : 
+=======
+    provider : google 
+    google : 
+        tracking_id : 'UA-123-12'
+    getclicky :
+      site_id : 
+    mixpanel :
+        token : '_MIXPANEL_TOKEN_'
+>>>>>>> ed847d0782a3aa3004ee53d5380ddd55f5c2de8a
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
@@ -99,8 +169,13 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
+<<<<<<< HEAD
     provider : custom
 
+=======
+    provider : false
+    
+>>>>>>> ed847d0782a3aa3004ee53d5380ddd55f5c2de8a
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
@@ -111,3 +186,7 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
+<<<<<<< HEAD
+=======
+  
+>>>>>>> ed847d0782a3aa3004ee53d5380ddd55f5c2de8a

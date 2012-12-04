@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 {% if site.JB.comments.provider and page.JB.comments != false %}
+=======
+{% if site.JB.comments.provider and page.comments != false %}
+>>>>>>> ed847d0782a3aa3004ee53d5380ddd55f5c2de8a
 
 {% case site.JB.comments.provider %}
 {% when "disqus" %}
