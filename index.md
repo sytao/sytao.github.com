@@ -4,9 +4,8 @@ title: sytao.net
 header: Thoughts, Writings and Dreams
 ---
 
-这是 sytao 的个人网站的最新版本，使用 [Jekyll](https://github.com/mojombo/jekyll) 搭建。
+不知道sytao.net这次是第几次复活了，之前的版本因为服务器到期，截图也没留下一个，这次我保证不会了，这次的最新版本，使用了 [Jekyll](https://github.com/mojombo/jekyll) 搭建，跑在了[Github](https://github.com) 上。不会在半路夭折了。除非域名到期忘记续费，否则这地方将永远存在下去。
 
-创作是一件开心的事情，沉浸只是因为纯粹的灵感。我希望自己的生命能够时常充满灵感，而文字就是这些愉快时光曾经存在过的证明。
 
 #### 最近发布的文章
 
