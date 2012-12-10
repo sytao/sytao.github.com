@@ -9,7 +9,11 @@ tags: [ruby]
 
 第一个问题困扰了老子两天。NND...
 ##问题一：
+
+
 `ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)`
+
+
 解决办法：[参考一](http://blog.csdn.net/jianglei421/article/details/7049433)
 
     ---
